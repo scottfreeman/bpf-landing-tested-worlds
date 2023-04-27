@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
-import Header from './components/Header';
-import Main from './components/Main';
-import Schedule from './components/Schedule';
-import Registration from './components/Registration';
-import Hotel from './components/Hotel';
-import Sponsors from './components/Sponsors';
-import Footer from './components/Footer';
+import Header from './sections/Header';
+import Main from './sections/Main';
+import Schedule from './sections/Schedule';
+import Registration from './sections/Registration';
+import Hotel from './sections/Hotel';
+import Sponsors from './sections/Sponsors';
+import Footer from './sections/Footer';
 
 export default function Home() {
   return (

@@ -1,37 +1,35 @@
-import Link from 'next/link';
+import { A, Button } from '@/components';
 
 export default function Hotel() {
   return (
     <div className='xl:w-5/6 m-auto mb-10'>
       <section className='bg-white text-black flex flex-wrap'>
         <div className='flex w-full xl:w-1/3'>
-          <div className='m-4 bg-gray-200 w-full'>
-            <div className='flex-1 m-4 p-4'>
+          <div className='m-4 bg-gray-200 w-full rounded'>
+            <div className='flex-1 m-2 p-4'>
               <div className='text-2xl uppercase font-bold'>Airports</div>
               <ul className='list-disc list-outside mt-2 ml-5'>
                 <li className='list-item'>
                   <span className='font-bold'>Birmingham International Airport</span> (BHX)
                   <br />
                   <span>~15 minutes drive</span>.<br />
-                  <Link
-                    className='hover:underline text-blue-700'
+                  <A
                     target='_blank'
                     href='https://www.google.com/maps/dir/BHX,+Birmingham/Royal+Court+Hotel,+Tamworth+Rd,+Coventry+CV7+8JG/@52.4365774,-1.68307,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4870b0deff56c9e3:0xd7fab23579355bb!2m2!1d-1.7435071!2d52.4523821!1m5!1m1!1s0x48774cc392ad6929:0xab89d5d52186d00a!2m2!1d-1.5413319!2d52.4452701!3e0?hl=en'
                   >
                     Open Map
-                  </Link>
+                  </A>
                 </li>
                 <li className='list-item mt-2'>
                   <span className='font-bold'>East Midlands European Airport</span> (EMA)
                   <br />
                   <span>~45 minutes drive</span>.<br />
-                  <Link
-                    className='hover:underline text-blue-700'
+                  <A
                     target='_blank'
                     href='https://www.google.com/maps/dir/East+Midlands+Airport+(EMA),+Castle+Donington,+Derby/Royal+Court+Hotel,+Tamworth+Rd,+Coventry+CV7+8JG/@52.6246232,-1.7911145,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4879e5b2f87b0e53:0x32972cb4ce3df85!2m2!1d-1.332134!2d52.829374!1m5!1m1!1s0x48774cc392ad6929:0xab89d5d52186d00a!2m2!1d-1.5413319!2d52.4452701!3e0?hl=en'
                   >
                     Open Map
-                  </Link>
+                  </A>
                 </li>
               </ul>
               <div className='text-2xl mt-10 uppercase font-bold'>Taxis</div>
@@ -46,65 +44,50 @@ export default function Hotel() {
                   <br />
                   <span>02476 555 555</span>
                   <br />
-                  <Link className='hover:underline text-blue-700' target='_blank' href='https://www.allenstaxis.com/'>
+                  <A target='_blank' href='https://www.allenstaxis.com/'>
                     Website
-                  </Link>
+                  </A>
                 </li>
                 <li className='list-item mt-2'>
                   <span className='font-bold'>Central Taxis</span>
                   <br />
                   <span>024 7633 3333</span>
                   <br />
-                  <Link
-                    className='hover:underline text-blue-700'
-                    target='_blank'
-                    href='https://centraltaxiswestmidlands.co.uk/'
-                  >
+                  <A target='_blank' href='https://centraltaxiswestmidlands.co.uk/'>
                     Website
-                  </Link>
+                  </A>
                 </li>
                 <li className='list-item mt-2'>
                   <span className='font-bold'>Lewis Taxis</span>
                   <br />
                   <span>024 7666 6666</span>
                   <br />
-                  <Link className='hover:underline text-blue-700' target='_blank' href='https://www.lewistaxis.co.uk/'>
+                  <A target='_blank' href='https://www.lewistaxis.co.uk/'>
                     Website
-                  </Link>
+                  </A>
                 </li>
               </ul>
-              <div className='text-2xl mt-10 uppercase font-bold'>Parking</div>
-              <div className='my-2'>Free on-site parking is available for the duration of the event.</div>
-              <div>
-                There are 400 spaces, 7 disabled spaces, and 5 coach spaces.
-                <br />
-                There are no height restrictions.
-              </div>
+              <div className='text-2xl mt-10 mb-2 uppercase font-bold'>Parking</div>
+              <div className='mb-2'>Free on-site parking is available for the duration of the event.</div>
+              <div className='mb-2'>There are 400 spaces, 7 disabled spaces, and 5 coach spaces.</div>
+              <div className='mb-2'>There are no height restrictions.</div>
             </div>
           </div>
         </div>
         <div className='flex w-full xl:w-2/3'>
-          <div className='m-4 border w-full'>
-            <div className='flex-1 m-4 p-4'>
+          <div className='m-4 border rounded w-full'>
+            <div className='flex-1 m-2 p-4'>
               <div className='text-2xl uppercase font-bold mb-2'>Hotel Information</div>
-              <div className='mb-2'>Royal Court Hotel & Spa, Tamworth Road, Coventry, CV7 8JG.</div>
+              <div className='mb-2'>Royal Court Hotel &amp; Spa, Tamworth Road, Coventry, CV7 8JG.</div>
               <div className='mb-2'>
-                <Link
-                  target='_blank'
-                  href='https://www.britanniahotels.com/hotels/the-royal-court-hotel'
-                  className='hover:underline text-blue-700'
-                >
+                <A target='_blank' href='https://www.britanniahotels.com/hotels/the-royal-court-hotel'>
                   View Hotel Information
-                </Link>
+                </A>
               </div>
               <div className='mb-2'>
-                <Link
-                  className='hover:underline text-blue-700'
-                  target='_blank'
-                  href='https://goo.gl/maps/kfqNNBajaCsR9kqz7'
-                >
+                <A target='_blank' href='https://goo.gl/maps/kfqNNBajaCsR9kqz7'>
                   Open Map
-                </Link>
+                </A>
               </div>
               <div>
                 <iframe
@@ -115,35 +98,70 @@ export default function Hotel() {
                   className='w-full'
                 ></iframe>
               </div>
-              <div className='text-2xl uppercase font-bold mt-10 mb-2'>Booking</div>
-              <div className='mb-2'>To make a booking at the Royal Court Hotel & Spa, click the link below.</div>
-              <div>
-                <Link
-                  target='_blank'
-                  href='https://www.britanniahotels.com/hotels/the-royal-court-hotel'
-                  className='inline-block bg-blue-600 text-white p-3 rounded-full w-52 hover:bg-blue-500 font-bold text-center'
-                >
-                  Book Hotel
-                </Link>
+
+              <div className='text-2xl uppercase font-bold mt-10 mb-2'>Hotel Packages</div>
+              <div className='flex flex-wrap -mx-2'>
+                <div className='m-2 flex-1 basis-full md:basis-2/5'>
+                  <div className='border rounded p-4'>
+                    <span className='font-bold'>Single Room</span>
+                    <br />
+                    &pound;50 - Bed &amp; Breakfast
+                    <br />
+                    &pound;65 - Dinner, Bed &amp; Breakfast
+                  </div>
+                </div>
+                <div className='m-2 flex-1 basis-full md:basis-2/5'>
+                  <div className='border rounded p-4'>
+                    <span className='font-bold'>Twin/Double Room</span>
+                    <br />
+                    &pound;60 - Bed &amp; Breakfast
+                    <br />
+                    &pound;90 - Dinner, Bed &amp; Breakfast
+                  </div>
+                </div>
+                <div className='m-2 flex-1 basis-full md:basis-2/5'>
+                  <div className='border rounded p-4'>
+                    <span className='font-bold'>Triple Room</span>
+                    <br />
+                    &pound;70 - Bed &amp; Breakfast
+                    <br />
+                    &pound;110 - Dinner, Bed &amp; Breakfast
+                  </div>
+                </div>
+                <div className='m-2 flex-1 basis-full md:basis-2/5'>
+                  <div className='border rounded p-4'>
+                    <span className='font-bold'>Quadruple Room</span>
+                    <br />
+                    &pound;80 - Bed &amp; Breakfast
+                    <br />
+                    &pound;140 - Dinner, Bed &amp; Breakfast
+                  </div>
+                </div>
               </div>
-              <div className='text-2xl uppercase font-bold mt-10 mb-2'>Other hotel options</div>
+              <div className='mb-2'>
+                To book a room at the Royal Court Hotel &amp; Spa at the discounted IPL rate, click the button below.
+              </div>
+              <div className='mt-4 mb-2 text-center'>
+                <Button target='_blank' href='https://www.britanniahotels.com/IPL2023'>
+                  Book Hotel
+                </Button>
+              </div>
+              <div className='text-xl uppercase font-bold mt-8 mb-2 text-left'>Other hotel options</div>
               <div>
                 Other hotel options may be available. Search for available rooms on{' '}
-                <Link
-                  className='hover:underline text-blue-700'
+                <A
                   target='_blank'
                   href='https://www.trivago.com/en-US/lm/hotels-coventry-united-kingdom?search=200-19699;dr-20231003-20231008;rc-1-1'
                 >
                   trivago.com
-                </Link>{' '}
+                </A>{' '}
                 or{' '}
-                <Link
-                  className='hover:underline text-blue-700'
+                <A
                   target='_blank'
                   href='https://uk.hotels.com/Hotel-Search?adults=1&children=&d1=2023-10-03&d2=2023-10-08&destination=Coventry%2C%20England%2C%20United%20Kingdom&endDate=2023-10-08&latLong=&mapBounds=&pwaDialog&regionId=6704&rooms=1&semdtl=&sort=RECOMMENDED&startDate=2023-10-03&theme=&useRewards=false&userIntent='
                 >
                   hotels.com
-                </Link>
+                </A>
                 .
               </div>
             </div>
