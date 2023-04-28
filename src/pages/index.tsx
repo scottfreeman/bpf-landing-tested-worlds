@@ -8,14 +8,10 @@ export default function Home() {
     <div className='bg-white text-black'>
       <NextSeo
         title='IPL Tested World Championships'
-        description='IPL Tested World Championships in Coventry, UK on 4th to 8th October, 2023.'
-        canonical='https://www.scottfreeman.net/'
-        openGraph={{
-          url: 'https://www.scottfreeman.net/'
-        }}
+        description='IPL Tested World Championships in Coventry, UK on 18th to 22nd October, 2023.'
       />
       <Head>
-        <title>IPL Tested World Championships | 4th - 8th October 2023 | Coventry, UK</title>
+        <title>IPL Tested World Championships | 18th - 22nd October 2023 | Coventry, UK</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
