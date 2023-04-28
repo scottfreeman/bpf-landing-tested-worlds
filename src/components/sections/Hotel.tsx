@@ -1,6 +1,6 @@
-import { A, Button } from '@/components';
+import { A, Button } from '@atoms';
 
-export default function Hotel() {
+export function Hotel() {
   return (
     <div className='xl:w-5/6 m-auto mb-10'>
       <section className='bg-white text-black flex flex-wrap'>

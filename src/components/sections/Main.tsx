@@ -1,7 +1,7 @@
 import Countdown, { CountdownRenderProps } from 'react-countdown';
-import { A } from '@/components';
+import { A } from '@atoms';
 
-export default function Main() {
+export function Main() {
   const date = new Date('2023-10-18 09:00:00');
 
   const countdownRenderer = ({ completed, formatted }: CountdownRenderProps) => {

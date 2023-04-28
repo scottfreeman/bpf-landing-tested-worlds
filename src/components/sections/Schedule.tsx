@@ -1,4 +1,4 @@
-export default function Schedule() {
+export function Schedule() {
   return (
     <div className='xl:w-5/6 m-auto mb-10'>
       <section className='flex flex-wrap'>

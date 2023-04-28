@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import logoImage from '../../images/logo.jpg';
 
-export default function Header() {
+export function Header() {
   return (
     <header className='bg-white text-black body-font' style={{ backgroundColor: '#f6f6f6' }}>
       <div className='container mx-auto flex justify-center'>

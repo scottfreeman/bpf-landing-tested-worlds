@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import { A } from '@/components';
+import { A } from '@atoms';
 
 import kabukiStrength from '../../images/sponsors/kabuki-strength.jpg';
 import montyCrown from '../../images/sponsors/monty-crown.jpg';
 import strengthShop from '../../images/sponsors/strength-shop.jpg';
 import strictCurlFed from '../../images/sponsors/strict-curl-federation.jpg';
 
-export default function Sponsors() {
+export function Sponsors() {
   return (
     <section className='xl:w-5/6 m-auto mb-10'>
       <div className='text-3xl uppercase font-bold m-4 text-center'>Thank you to our sponsors</div>

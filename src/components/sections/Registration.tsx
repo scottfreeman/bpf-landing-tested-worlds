@@ -1,6 +1,6 @@
-import { Button } from '@/components';
+import { Button } from '@atoms';
 
-export default function Registration() {
+export function Registration() {
   return (
     <div className='bg-gray-200 px-4 mt:px-0'>
       <section className='flex flex-wrap xl:w-1/2 m-auto mb-10'>

@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import { A } from '@/components';
+import { A } from '@atoms';
 
 import iplLogo from '../../images/ipl.png';
 import bpfLogo from '../../images/bpf.png';
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer className='bg-gray-200 text-black'>
       <div className='container px-5 py-8 mx-auto flex flex-col items-center'>

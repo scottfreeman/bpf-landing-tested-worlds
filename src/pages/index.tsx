@@ -1,13 +1,7 @@
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
-import Header from './sections/Header';
-import Main from './sections/Main';
-import Schedule from './sections/Schedule';
-import Registration from './sections/Registration';
-import Hotel from './sections/Hotel';
-import Sponsors from './sections/Sponsors';
-import Footer from './sections/Footer';
+import { Header, Footer, Hotel, Main, Registration, Schedule, Sponsors } from '@sections';
 
 export default function Home() {
   return (
