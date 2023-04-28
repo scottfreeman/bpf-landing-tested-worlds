@@ -2,7 +2,7 @@ import Countdown, { CountdownRenderProps } from 'react-countdown';
 import { A } from '@/components';
 
 export default function Main() {
-  const date = new Date('2023-10-04 08:00:00');
+  const date = new Date('2023-10-18 09:00:00');
 
   const countdownRenderer = ({ completed, formatted }: CountdownRenderProps) => {
     if (completed) {
@@ -48,7 +48,7 @@ export default function Main() {
           <div className='text-xl'>Tamworth Road, Coventry, CV7 8JG</div>
         </div>
         <div className='text-2xl lg:text-4xl font-bold mb-8 uppercase'>
-          4 - 8<sup className='lowercase text-sm lg:-top-5'>th</sup> October, 2023
+          18 - 22<sup className='lowercase text-sm lg:-top-5'>nd</sup> October, 2023
         </div>
         <div>
           <Countdown date={date} renderer={countdownRenderer} />

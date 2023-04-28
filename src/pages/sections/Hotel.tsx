@@ -146,24 +146,6 @@ export default function Hotel() {
                   Book Hotel
                 </Button>
               </div>
-              <div className='text-xl uppercase font-bold mt-8 mb-2 text-left'>Other hotel options</div>
-              <div>
-                Other hotel options may be available. Search for available rooms on{' '}
-                <A
-                  target='_blank'
-                  href='https://www.trivago.com/en-US/lm/hotels-coventry-united-kingdom?search=200-19699;dr-20231003-20231008;rc-1-1'
-                >
-                  trivago.com
-                </A>{' '}
-                or{' '}
-                <A
-                  target='_blank'
-                  href='https://uk.hotels.com/Hotel-Search?adults=1&children=&d1=2023-10-03&d2=2023-10-08&destination=Coventry%2C%20England%2C%20United%20Kingdom&endDate=2023-10-08&latLong=&mapBounds=&pwaDialog&regionId=6704&rooms=1&semdtl=&sort=RECOMMENDED&startDate=2023-10-03&theme=&useRewards=false&userIntent='
-                >
-                  hotels.com
-                </A>
-                .
-              </div>
             </div>
           </div>
         </div>
