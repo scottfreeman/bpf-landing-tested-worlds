@@ -69,22 +69,25 @@ export function Main() {
         </div>
       </section>
 
-      <section className='flex flex-wrap xl:w-5/6 items-start justify-center m-auto'>
-        <div className='flex w-full lg:w-1/2'>
-          <div className='flex-1 bg-gray-200 rounded m-4 p-4 h-96'>
-            <div className='uppercase text-sm mb-2'>Event Location</div>
-            <div className='text-lg lg:text-xl mb-2'>Royal Court Hotel &amp; Spa, Tamworth Road, Coventry, CV7 8JG</div>
+      <section className='lg:grid grid-cols-2 items-stretch flex-wrap xl:w-5/6 m-auto'>
+        <div className='flex w-full'>
+          <div className='flex flex-col flex-1 bg-gray-200 rounded m-4 p-4 w-full h-96 lg:h-auto'>
+            <div>
+              <div className='uppercase text-sm mb-2'>Event Location</div>
+              <div className='text-lg lg:text-xl mb-2'>
+                Royal Court Hotel &amp; Spa, Tamworth Road, Coventry, CV7 8JG
+              </div>
+            </div>
             <iframe
               src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.8699774914967!2d-1.5439068226739703!3d52.44527007204171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48774cc392ad6929%3A0xab89d5d52186d00a!2sRoyal%20Court%20Hotel!5e0!3m2!1sen!2suk!4v1682081222379!5m2!1sen!2suk'
               width='600'
-              height='290'
               loading='lazy'
-              className='w-full'
+              className='w-full flex-1 '
             ></iframe>
           </div>
         </div>
-        <div className='flex w-full lg:w-1/2'>
-          <div className='flex-1 bg-gray-200 rounded m-4 p-4 h-96'>
+        <div className='flex w-full'>
+          <div className='flex-1 bg-gray-200 rounded m-4 p-4'>
             <div className='uppercase text-sm mb-2'>Event Information</div>
             <div className='mb-2'>
               <span className='font-bold'>Spectators fee:</span>
@@ -109,12 +112,29 @@ export function Main() {
             </div>
             <div className='mb-2'>
               <span className='font-bold'>Meet Directors:</span>
+              <div className='md:flex justify-start items-start align-top'>
+                <div className='md:w-1/2 mb-2 md:mb-0'>
+                  Marcus Griffiths
+                  <div className='lg:text-sm'>
+                    British Powerlifting Federation president.
+                    <br />
+                    IPL European & Commonwealth president.
+                  </div>
+                </div>
+                <div className='md:w-1/2'>
+                  Lady Petra Kent
+                  <div className='lg:text-sm'>
+                    British Powerlifting Federation vice-president.
+                    <br />
+                    IPL general secretary.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='mb-2'>
+              <span className='font-bold'>Contact:</span>
               <br />
               <A href='mailto:bpf.secretary@gmail.com'>bpf.secretary@gmail.com</A>
-              <br />
-              <A href='https://www.bplf.co.uk' target='_blank'>
-                British Powerlifting Federation
-              </A>
             </div>
           </div>
         </div>
