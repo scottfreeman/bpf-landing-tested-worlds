@@ -1,12 +1,26 @@
 import Countdown, { CountdownRenderProps } from 'react-countdown';
-import { A } from '@atoms';
+import { A, Button } from '@atoms';
 
 export function Main() {
   const date = new Date('2023-10-18 09:00:00');
+  const now = new Date();
+  const endDate = new Date('2023-10-22 17:00:00');
 
   const countdownRenderer = ({ completed, formatted }: CountdownRenderProps) => {
     if (completed) {
-      return <></>;
+      if (now < endDate) {
+        return (
+          <div className='mx-4'>
+            <Button
+              href='#'
+              target='_blank'
+              className='bg-gradient-to-b from-orange-500 to-orange-900 text-2xl lg:text-4xl uppercase hover:from-orange-600 hover:to-orange-900'
+            >
+              Watch Livestream
+            </Button>
+          </div>
+        );
+      }
     } else {
       return (
         <div className='flex'>
