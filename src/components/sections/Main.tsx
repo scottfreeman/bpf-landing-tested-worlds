@@ -11,25 +11,25 @@ export function Main() {
       return (
         <div className='flex'>
           <div className='flex flex-col items-center m-2 lg:m-4'>
-            <div className='bg-gradient-to-b from-gray-200 to-gray-600 rounded text-black p-2 lg:p-5 text-2xl lg:text-5xl'>
+            <div className='bg-gradient-to-b from-orange-500 to-orange-900 rounded text-white p-2 lg:p-5 text-2xl lg:text-5xl'>
               <span suppressHydrationWarning={true}>{formatted.days}</span>
             </div>
             <div className='uppercase text-xs lg:text-sm'>Days</div>
           </div>
           <div className='flex flex-col items-center m-2 lg:m-4'>
-            <div className='bg-gradient-to-b from-gray-200 to-gray-600 rounded text-black p-2 lg:p-5 text-2xl lg:text-5xl'>
+            <div className='bg-gradient-to-b from-orange-500 to-orange-900 rounded text-white p-2 lg:p-5 text-2xl lg:text-5xl'>
               <span suppressHydrationWarning={true}>{formatted.hours}</span>
             </div>
             <div className='uppercase text-xs lg:text-sm'>Hours</div>
           </div>
           <div className='flex flex-col items-center m-2 lg:m-4'>
-            <div className='bg-gradient-to-b from-gray-200 to-gray-600 rounded text-black p-2 lg:p-5 text-2xl lg:text-5xl'>
+            <div className='bg-gradient-to-b from-orange-500 to-orange-900 rounded text-white p-2 lg:p-5 text-2xl lg:text-5xl'>
               <span suppressHydrationWarning={true}>{formatted.minutes}</span>
             </div>
             <div className='uppercase text-xs lg:text-sm'>Minutes</div>
           </div>
           <div className='flex flex-col items-center m-2 lg:m-4'>
-            <div className='bg-gradient-to-b from-gray-200 to-gray-600 rounded text-black p-2 lg:p-5 text-2xl lg:text-5xl'>
+            <div className='bg-gradient-to-b from-orange-500 to-orange-900 rounded text-white p-2 lg:p-5 text-2xl lg:text-5xl'>
               <span suppressHydrationWarning={true}>{formatted.seconds}</span>
             </div>
             <div className='uppercase text-xs lg:text-sm'>Seconds</div>
@@ -41,7 +41,7 @@ export function Main() {
 
   return (
     <div>
-      <section className='bg-black text-white py-10 lg:py-20 flex flex-col items-center text-center'>
+      <section className='bg-black text-white py-8 lg:py-10 flex flex-col items-center text-center'>
         <div className='mb-8'>
           <div className='text-4xl lg:text-6xl font-bold mb-12 uppercase'>IPL Tested World Championships</div>
           <div className='text-2xl lg:text-4xl font-bold mb-2 uppercase'>Royal Court Hotel &amp; Spa, Coventry</div>
