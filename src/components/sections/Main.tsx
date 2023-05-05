@@ -57,7 +57,13 @@ export function Main() {
     <div>
       <section className='bg-black text-white py-8 lg:py-10 flex flex-col items-center text-center'>
         <div className='mb-8'>
-          <div className='text-4xl lg:text-6xl font-bold mb-12 uppercase'>IPL Tested World Championships</div>
+          <div className='text-4xl lg:text-6xl font-bold mb-12 uppercase'>
+            IPL Tested
+            <br />
+            World Powerlifting
+            <br />
+            Championships 2023
+          </div>
           <div className='text-2xl lg:text-4xl font-bold mb-2 uppercase'>Royal Court Hotel &amp; Spa, Coventry</div>
           <div className='text-xl'>Tamworth Road, Coventry, CV7 8JG</div>
         </div>
